@@ -3,6 +3,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## App Preview
 ![20210316_030550](https://user-images.githubusercontent.com/50798315/111263671-fe566c80-8604-11eb-95e9-9ac136777057.gif)
 
+## Backend
+https://github.com/tnicacio/bd2-project-backend <br/>
+Obs: Missing full integration with back-end. This App is currently in development.
+
 ## Getting Started
 
 First, run the development server:
