@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666666;
+  --text-highight: #b3b9ff;
+  --dark-background: #2e384d;
+  --red: #e83f5b;
+  --green: #4cbe2b;
+  --dark-green: #36a420;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+  --dracula-background: #282a36;
+  --black: #000000;
+  --softWhite: #fcfcfc;
+  --light-green: #50fa7b;
+  --lightRed: #ff5555;
+  --orange: orangered;
+  --red-orange: #eb773e;
+  --title: black;
+  --border: #f0f1f3;
+  --init-cicle-btn: #5965e0;
+  --init-cicle-btn-hover: #4953b8;
+  --numbers: '#5965e0';
+}

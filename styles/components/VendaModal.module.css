@@ -1,0 +1,221 @@
+.overlay {
+  background: rgba(242, 243, 245, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: var(--white);
+  width: 100%;
+  max-width: 800px;
+
+  border: 1px solid lightblue;
+
+  /* padding: 2rem 3rem; */
+  /* border-radius: 10px 0 60px rgba(0, 0, 0, 0.05); */
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(203, 227, 235);
+}
+
+.container header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  color: var(--black);
+  /* background: url('/icons/levelup.svg') no-repeat center; */
+  background-size: contain;
+}
+
+.container p {
+  color: var(--text);
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.formRegister {
+  border-top: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 1.25rem;
+}
+
+.formRegister label {
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.formRegister input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  outline: none;
+  font-size: 16px;
+}
+
+button.closeRegister {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  background: transparent;
+  border: 0;
+
+  font-size: 0; /* para diminuir e adequar o outline do botão que só tem um ícone dentro dele */
+}
+
+.submitContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  align-items: center;
+
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+.submitContainer a {
+  color: var(--blue-dark);
+}
+.submitContainer a:hover {
+  text-decoration: underline;
+}
+
+button.submitRegister,
+button.cancelRegister {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+
+  padding: 15px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  color: var(--black);
+  font-family: 'Arial';
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button.submitRegister {
+  background: var(--green);
+}
+button.submitRegister:hover {
+  background: var(--dark-green);
+}
+
+button.cancelRegister {
+  background: var(--red);
+}
+button.cancelRegister:hover {
+  background: rgba(255, 0, 0, 0.822);
+}
+
+.pagtoPrazo {
+  width: 14%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+.checkboxInput input {
+  min-width: 1rem;
+  min-height: 1rem;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  padding-top: 1rem;
+}
+
+.secondRow > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.itensContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.produtosList,
+.carrinho {
+  display: flex;
+  width: 100%;
+  height: 12rem;
+  padding: 10px;
+  overflow: scroll;
+  background: rgb(230, 238, 238);
+}
+
+.itensContainer p {
+  display: flex;
+  color: black;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.itensContainer span {
+  margin-left: 1rem;
+  color: var(--text);
+}
+
+.produtosList {
+  /* border: 1px solid red; */
+  min-width: 600px;
+  font-size: 100%;
+  text-align: left;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 1rem; */
+}
+
+.produtosList th {
+  min-height: 2rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.produtosList td {
+  min-height: 4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.produtosList tr:hover:not(.firstRow) {
+  background: #f5f5f5;
+}
+
+.produtosList a {
+  font-weight: 600;
+  color: blue;
+}
+
+.produtosList a:hover {
+  color: green;
+}

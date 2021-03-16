@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background: #333;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ul li {
+  min-height: 2rem;
+}
+
+.ul a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ul li:hover {
+  background: #111;
+}
+
+.navLogOut {
+  position: absolute;
+  right: 0;
+}
